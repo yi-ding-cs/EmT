@@ -5,6 +5,8 @@ Yi Ding, Chengxuan Tong, Shuailei Zhang, Muyun Jiang, Yong Li, Kevin Lim Jun Lia
 
 More information will be provided after acceptance. 
 
+Please use the **default parameters** in each main script to run the code.
+
 # CBCR License
 | Permissions | Limitations | Conditions |
 | :---         |     :---:      |          :---: |
