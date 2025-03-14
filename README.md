@@ -1,7 +1,7 @@
 # EmT
 This is the pytorch implementation of EmT, a graph-transformer for EEG emotion recognition, of our paper:
 
-Yi Ding, Chengxuan Tong, Shuailei Zhang, Muyun Jiang, Yong Li, Kevin Lim Jun Liang, Cuntai Guan, "EmT: A Novel Transformer for Generalized Cross-subject EEG Emotion Recognition", in _**IEEE Transactions on Neural Networks and Learning Systems(TNNLS), accepted**_PDF available at [Arxiv](https://arxiv.org/abs/2406.18345).
+Yi Ding, Chengxuan Tong, Shuailei Zhang, Muyun Jiang, Yong Li, Kevin Lim Jun Liang, Cuntai Guan, "EmT: A Novel Transformer for Generalized Cross-subject EEG Emotion Recognition", in _**IEEE Transactions on Neural Networks and Learning Systems (TNNLS), accepted**_PDF available at [Arxiv](https://arxiv.org/abs/2406.18345).
 
 # Network structure of EmT
 <p align="center">
@@ -23,10 +23,7 @@ The network structure of EmT. The temporal graphs from TGC are used as the input
 </p>
 Each segment is split into several sub-segment. Features in different frequency bands are extracted for each sub-segment channel by channel. Then each EEG channel is regarded as a node, and the extracted features are treated as node attributes. Combing all the graphs which are in time order, we get the temporal graphs.
 
-
 ❗Please use the default parameters in each main script and change location parameters based on your own to run the code.
-
-
 
 # CBCR License
 | Permissions | Limitations | Conditions |
