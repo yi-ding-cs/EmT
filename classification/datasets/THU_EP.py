@@ -12,7 +12,7 @@ class THU(PrepareData):
                                'FC6', 'Cz', 'C3', 'C4', 'T7', 'T8', 'A1', 'A2', 'CP1', 'CP2', 'CP5',
                                'CP6', 'Pz', 'P3', 'P4', 'P7', 'P8', 'PO3', 'PO4', 'Oz', 'O1', 'O2']
         self.graph_idx = self.get_graph_index(args.graph_type)
-        self.filter_bank = [[1, 3], [4, 8], [8, 12], [12, 16], [16, 20], [20, 28], [30, 45]]
+        self.filter_bank = [[1, 4], [4, 8], [8, 12], [12, 16], [16, 20], [20, 28], [30, 45]]
 
         self.filter_allowance = [[0.2, 2], [2, 2], [2, 2], [2, 2], [2, 2], [2, 2], [2, 2]]
 
