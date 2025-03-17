@@ -27,7 +27,7 @@ Each segment is split into several sub-segment. Features in different frequency 
 
 ## Example of EmT for classification tasks
 ```python
-from EmT_Cls.py import EmT
+from EmT_Cls import EmT
 # I use a dummy data input as an example here
 data = torch.randn((64, 36, 62, 7))   # (batch, sequence, channels, features)
 # You can adjust the hyper-parameters accordingly
@@ -51,7 +51,7 @@ preds = EmT(data)
 ```
 ## Example of EmT for regression tasks
 ```python
-from EmT_Reg.py import EmT
+from EmT_Reg import EmT
 # I use a dummy data input as an example here
 data = torch.randn((2, 96, 32, 6))   # (batch, sequence, channels, features)
 # You can adjust the hyper-parameters accordingly
