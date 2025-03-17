@@ -139,7 +139,7 @@ class PrepareData:
         Args:
             data: list of time x chan
             fs: sampling rate
-            cut_frequency: list of frequency bands [[1, 3], [4, 8], [8, 12], [12.5, 16], [16.5, 20], [20.5, 28], [30, 45]]
+            cut_frequency: list of frequency bands [[1, 4], [4, 8], [8, 12], [12.5, 16], [16.5, 20], [20.5, 28], [30, 45]]
             allowance: list of allowance bands [[0.2, 2], [2, 2], [2, 2], [2, 2], [2, 2], [2, 2], [2, 2]]
 
         Returns:
