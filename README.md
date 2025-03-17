@@ -25,6 +25,54 @@ Each segment is split into several sub-segment. Features in different frequency 
 
 ❗Please use the default parameters in each main script and change location parameters based on your own to run the code.
 
+## Example of the usage of EmT for classification tasks
+```python
+from EmT_Cls.py import EmT
+# I use a dummy data input as an example here
+data = torch.randn((64, 36, 62, 7))   # (batch, sequence, channels, features)
+# You can adjust the hyper-parameters accordingly
+emt = EmT(
+    layers_graph=[1, 2],
+    layers_transformer=8,
+    num_adj=2,
+    num_chan=62,
+    num_feature=7,
+    hidden_graph=32,
+    K=4,
+    num_head=16,
+    dim_head=32,
+    dropout=0.25,
+    num_class=2,
+    graph2token='Linear',
+    encoder_type='Cheby',
+    alpha=0.25
+)
+preds = EmT(data)
+```
+## Example of the usage of EmT for regression tasks
+```python
+from EmT_Reg.py import EmT
+# I use a dummy data input as an example here
+data = torch.randn((2, 96, 32, 6))   # (batch, sequence, channels, features)
+# You can adjust the hyper-parameters accordingly
+emt = EmT(
+    layers_graph=[1, 2],
+    layers_transformer=2,
+    num_adj=2,
+    num_chan=32,
+    num_feature=6,
+    hidden_graph=32,
+    K=3,
+    num_head=32,
+    dim_head=32,
+    dropout=0.5,
+    num_class=1,
+    graph2token='Linear',
+    encoder_type='Cheby'
+)
+preds = EmT(data)
+```
+
 # CBCR License
 | Permissions | Limitations | Conditions |
 | :---         |     :---:      |          :---: |
