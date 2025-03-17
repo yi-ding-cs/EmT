@@ -25,7 +25,7 @@ Each segment is split into several sub-segment. Features in different frequency 
 
 ❗Please use the default parameters in each main script and change location parameters based on your own to run the code.
 
-## Example of the usage of EmT for classification tasks
+## Example of EmT for classification tasks
 ```python
 from EmT_Cls.py import EmT
 # I use a dummy data input as an example here
@@ -49,7 +49,7 @@ emt = EmT(
 )
 preds = EmT(data)
 ```
-## Example of the usage of EmT for regression tasks
+## Example of EmT for regression tasks
 ```python
 from EmT_Reg.py import EmT
 # I use a dummy data input as an example here
