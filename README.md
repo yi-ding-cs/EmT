@@ -1,7 +1,7 @@
 # EmT
 This is the pytorch implementation of EmT, a graph-transformer for EEG emotion recognition, of our paper:
 
-Yi Ding, Chengxuan Tong, Shuailei Zhang, Muyun Jiang, Yong Li, Kevin Lim Jun Liang, Cuntai Guan, "EmT: A Novel Transformer for Generalized Cross-subject EEG Emotion Recognition", in **IEEE Transactions on Neural Networks and Learning Systems (TNNLS),DOI: 10.1109/TNNLS.2025.3552603**. PDF available at [Arxiv](https://arxiv.org/abs/2406.18345).
+Yi Ding, Chengxuan Tong, Shuailei Zhang, Muyun Jiang, Yong Li, Kevin Lim Jun Liang, Cuntai Guan, "EmT: A Novel Transformer for Generalized Cross-subject EEG Emotion Recognition", in **IEEE Transactions on Neural Networks and Learning Systems (TNNLS),DOI: 10.1109/TNNLS.2025.3552603**. PDF available at [IEEE Xplore](https://ieeexplore.ieee.org/document/10960695).
 
 # Network structure of EmT
 <p align="center">
