@@ -25,7 +25,7 @@ class SEED(PrepareData):
 
         self.graph_idx = self.get_graph_index(args.graph_type)
 
-        self.filter_bank = [[1, 4], [4, 8], [8, 12], [12, 16], [16, 20], [20, 28], [30, 45]]
+        self.filter_bank = [[1, 3], [4, 8], [8, 12], [12, 16], [16, 20], [20, 28], [30, 45]]
 
         self.filter_allowance = [[0.2, 2], [2, 2], [2, 2], [2, 2], [2, 2], [2, 2], [2, 2]]
 
@@ -169,3 +169,4 @@ class SEED(PrepareData):
 
             print('Data and label for sub{} prepared!'.format(sub))
             self.save(data_, label_, sub)
+
